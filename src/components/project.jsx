@@ -17,7 +17,7 @@ export default function Project() {
                         <h3 class="text-xl font-bold text-white text-center mt-4 mb-4">Projet POST-IT</h3>
                         <p class="mb-4 text-white">Un projet simple qui marque mes débuts avec Vue.js.
                             J'ai créé une mini projet post-it, en utilisant les composants Vue pour l'interactivité et Tailwind CSS pour un design rapide et moderne.</p>
-                        <a href="#" class=" text-[#FE4F6C] dark:text-primary-dark hover:underline duration-300">voir le projet →</a>
+                        <a href="https://post-it-tzon.vercel.app/#/" class=" text-[#FE4F6C] dark:text-primary-dark hover:underline duration-300">voir le projet →</a>
                     </motion.div>
                     <motion.div initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}

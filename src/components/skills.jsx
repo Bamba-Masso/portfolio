@@ -230,6 +230,15 @@ export default function Skills() {
                                         </div>
                                     </motion.div>
                                 </div>
+                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://img.icons8.com/?size=100&id=TMZAZMLFozcL&format=png&color=000000" alt="HTML" class="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} class="text-gray-300">Bash</motion.p>
+                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div class="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                            70%
+                                        </div>
+                                    </motion.div>
+                                </div>
                                
                             </div>
                         </motion.div>

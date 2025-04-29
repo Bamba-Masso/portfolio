@@ -147,14 +147,14 @@ export default function Index() {
         
         <div className='w-full flex justify-center'>
           <div className=' w-[80%] px-4 py-16 '>
-          <h1 id='formation' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Formation</span></h1>
+          <h1 id='formation' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Formations</span></h1>
           <Formation />
           </div>
         </div>
 
         <div className='w-full flex justify-center'>
           <div className=' w-[80%] px-4 py-16'>
-          <h1 id='competences' className='text-center mb-14 text-3xl font-bold text-white'>Mes<span className='text-[#FE4F6C]'> Contépences</span> </h1>
+          <h1 id='competences' className='text-center mb-14 text-3xl font-bold text-white'>Mes<span className='text-[#FE4F6C]'> Conpétences</span> </h1>
           <Skills />
           </div>
         </div>
