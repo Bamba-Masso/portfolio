@@ -8,7 +8,6 @@ export default function Formation() {
     
     <>
       <div className="container">
-      <h1 className="mb-10 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Formation</span></h1>
       <div className="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
 
         {/* Premier bloc */}

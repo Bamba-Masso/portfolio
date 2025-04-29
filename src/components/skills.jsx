@@ -21,7 +21,6 @@ export default function Skills() {
                 whileInView="visible"
                 viewport={{ once: true }}>
                 <div class=" w-full text-center ">
-                <h1 className='text-center mb-10 text-3xl font-bold text-white'>Mes<span className='text-[#FE4F6C]'> Contépences</span> </h1>
                     <div class=" flex  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 ">
                     <motion.div 
                         variants={containerVariants}

@@ -1,7 +1,7 @@
 import js from '@eslint/js'
-import globals from './Masso/node_modules/globals'
-import reactHooks from './Masso/node_modules/eslint-plugin-react-hooks'
-import reactRefresh from './Masso/node_modules/eslint-plugin-react-refresh'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
   { ignores: ['dist'] },

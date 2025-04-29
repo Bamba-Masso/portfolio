@@ -3,7 +3,7 @@ export default function Services(){
 return(
     <>
 
-<h1 className="mb-10 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Services</span></h1>
+
 <section id="features" className="">
             <motion.div
                 initial={{ opacity: 0, y: 50 }} 
@@ -28,11 +28,11 @@ return(
                     </p>
                 </motion.div>
 
-                {/* Développement d'application */}
+               
                 <motion.div
-                    initial={{ opacity: 0, scale: 0.9 }} // Démarre un peu plus petit
-                    whileInView={{ opacity: 1, scale: 1 }} // Final avec taille normale
-                    transition={{ duration: 1, ease: "easeOut" }} // Animation plus lente pour l'effet de zoom
+                    initial={{ opacity: 0, scale: 0.9 }} 
+                    whileInView={{ opacity: 1, scale: 1 }} 
+                    transition={{ duration: 1, ease: "easeOut" }} 
                     className="rounded-xl shadow-md shadow-white transition  p-8 text-center shadow hover:shadow-lg transition-all duration-300"
                 >
                     <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md ">

@@ -85,12 +85,12 @@ export default function Index() {
 
           <nav aria-label="Header Navigation" className="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
             <ul className="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
-              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#">A propos</a></li>
-              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#">Formation</a></li>
-              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#">Competences</a></li>
-              <li className="text-white md:mr-12 hover:hover:text-[#FE4F6C]"><a href="#">Services</a></li>
-              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#">Projets</a></li>
-              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#">Contact</a></li>
+              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#props">A propos</a></li>
+              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#formation">Formation</a></li>
+              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#conpetences">Competences</a></li>
+              <li className="text-white md:mr-12 hover:hover:text-[#FE4F6C]"><a href="#services">Services</a></li>
+              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#projets">Projets</a></li>
+              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#contact">Contact</a></li>
 
             </ul>
           </nav>
@@ -101,7 +101,7 @@ export default function Index() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className=" mt-30 mb-10  w-[80%] px-4 py-16  flex items-center justify-center "
+        className=" mt-20  w-[80%] px-4 py-16  flex items-center justify-center "
       >
         <div className="mt-20">
           <motion.h1
@@ -140,38 +140,40 @@ export default function Index() {
         {/* partie à propos */}
         <div className='w-full flex justify-center'>
           <div className=' h-auto w-[80%] px-4 py-16  '>
-            <h1 className='text-center mb-10 text-3xl font-bold text-white'>A Propos  <span className='text-[#FE4F6C]'> De Moi</span> </h1>
+            <h1 id='props' className='text-center mb-14 text-3xl font-bold text-white'>A Propos  <span className='text-[#FE4F6C]'> De Moi</span> </h1>
           <Profile />
           </div>
         </div>
         
         <div className='w-full flex justify-center'>
           <div className=' w-[80%] px-4 py-16 '>
-           
+          <h1 id='formation' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Formation</span></h1>
           <Formation />
           </div>
         </div>
 
         <div className='w-full flex justify-center'>
           <div className=' w-[80%] px-4 py-16'>
-           
+          <h1 id='competences' className='text-center mb-14 text-3xl font-bold text-white'>Mes<span className='text-[#FE4F6C]'> Contépences</span> </h1>
           <Skills />
           </div>
         </div>
          <div className='w-full flex justify-center'>
           <div className='w-[85%] px-4 py-16'>
+          <h1 id='services' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Services</span></h1>
           <Services />
           </div>
         </div>
         <div className='w-full flex justify-center'>
           <div className='w-[85%] px-4 py-16'>
-           
+          <h1 id='projets' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Projets</span></h1>
           <Project />
           </div>
         </div>
        
         <div className='w-full flex justify-center'>
           <div className='w-[85%] px-4 py-16'>
+          <h1 id='contact' className="mb-14 text-3xl text-center font-bold text-white"> Contacter <span className="text-[#FE4F6C]">Moi</span></h1>
           <Contact />
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function Contact() {
 
  <section id="contact" className="  shadow-xl 
  ">
-         <h1 className="mb-10 text-3xl text-center font-bold text-white"> Contacter <span className="text-[#FE4F6C]">Moi</span></h1>
+       
             <motion.div
                 initial={{ opacity: 0, x: -100 }} 
                 whileInView={{ opacity: 1, x: 0 }}
