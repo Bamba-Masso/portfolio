@@ -38,7 +38,7 @@ export default function Project() {
                         <h3 class="text-xl text-center text-white font-bold mt-4 mb-4">Projet MYSHOP</h3>
                         <p class="mb-4 text-white">Projet collaboratif réalisé avec PHP native et Tailwind CSS.
                             J'étais en charge de l'authentification et de la partie admin. Cette expérience m'a permis de renforcer mes compétences en développement back-end  tout en travaillant efficacement en équipe.</p>
-                        <a href="#https://masso.clyktech.com/" class="text-[#FE4F6C] dark:text-primary-dark hover:underline duration-300">View Project →</a>
+                        <a href="https://masso.clyktech.com/" class="text-[#FE4F6C] dark:text-primary-dark hover:underline duration-300">View Project →</a>
                     </motion.div>
                     <motion.div initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
