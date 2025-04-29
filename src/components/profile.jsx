@@ -53,7 +53,7 @@ export default function Header() {
           </motion.p>
 
           <motion.div variants={itemVariants}>
-            <a href="/BAMBA_CV.pdf" download="BAMBA_CV.pd" className="md:px-6 px-4 py-2 w-52 flex gap-4 items-center text-white font-semibold outline outline-[#FE4F6C] rounded-full hover:bg-[#FE4F6C] hover:border border-white transform transition delay-300">
+            <a href="/BAMBA_CV.pdf" download="BAMBA_CV.pdf" className="md:px-6 px-4 py-2 w-52 flex gap-4 items-center text-white font-semibold outline outline-[#FE4F6C] rounded-full hover:bg-[#FE4F6C] hover:border border-white transform transition delay-300">
              <img src="telecharger.png" alt="" />  Télécharger CV
             </a>
           </motion.div>
