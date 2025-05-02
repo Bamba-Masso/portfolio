@@ -4,7 +4,7 @@ export default function Contact() {
     <>
 
 
- <section id="contact" className="  shadow-xl 
+ <section id="contact" className=" 
  ">
        
             <motion.div

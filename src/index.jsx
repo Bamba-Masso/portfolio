@@ -50,7 +50,7 @@ export default function Index() {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.3, // chaque enfant arrive avec 0.3s de décalage
+        staggerChildren: 0.8, 
       },
     },
   };
@@ -74,7 +74,7 @@ export default function Index() {
     <>
       <body className="bg-[#3A3973]">
         <header className="w-full bg-[#3A3973] px-16 px-4 flex fixed justify-around items-center py-4 shadow-md top-0 z-50">
-          <span className="text-2xl font-bold text-[#FE4F6C]">BAMBA</span>
+          <span className="text-2xl font-bold text-[#FE4F6C]"><img src="" alt="" className='' />BAMBA</span>
           <input type="checkbox" className="peer hidden" id="navbar-open" />
           <label className="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
             <span className="sr-only">Toggle Navigation</span>
@@ -138,14 +138,14 @@ export default function Index() {
       </motion.div>
     </div>
         {/* partie à propos */}
-        <div className='w-full flex justify-center'>
+        <div className=' w-full flex justify-center'>
           <div className=' h-auto w-[80%] px-4 py-16  '>
             <h1 id='props' className='text-center mb-14 text-3xl font-bold text-white'>A Propos  <span className='text-[#FE4F6C]'> De Moi</span> </h1>
           <Profile />
           </div>
         </div>
         
-        <div className='w-full flex justify-center'>
+        <div className='bg-[#3A3980]  w-full flex justify-center'>
           <div className=' w-[80%] px-4 py-16 '>
           <h1 id='formation' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Formations</span></h1>
           <Formation />
@@ -158,7 +158,7 @@ export default function Index() {
           <Skills />
           </div>
         </div>
-         <div className='w-full flex justify-center'>
+         <div className='bg-[#3A3980] w-full flex justify-center'>
           <div className='w-[85%] px-4 py-16'>
           <h1 id='services' className="mb-14 text-3xl text-center font-bold text-white"> Mes <span className="text-[#FE4F6C]">Services</span></h1>
           <Services />
@@ -171,7 +171,7 @@ export default function Index() {
           </div>
         </div>
        
-        <div className='w-full flex justify-center'>
+        <div className='bg-[#3A3980] w-full flex justify-center'>
           <div className='w-[85%] px-4 py-16'>
           <h1 id='contact' className="mb-14 text-3xl text-center font-bold text-white"> Contacter <span className="text-[#FE4F6C]">Moi</span></h1>
           <Contact />
