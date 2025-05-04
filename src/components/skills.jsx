@@ -20,8 +20,8 @@ export default function Skills() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}>
-                <div class=" w-full text-center ">
-                    <div class=" flex  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 ">
+                <div className=" w-full text-center ">
+                    <div className=" flex  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-10 ">
                     <motion.div 
                         variants={containerVariants}
                             initial="hidden"
@@ -31,47 +31,47 @@ export default function Skills() {
                             <h1 className="mb-8 text-3xl text-white">Languages De Programations </h1>
                             <div className="  grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 gap-4 items-start auto-rows-auto">
 
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">HTML</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-10/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">HTML</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-10/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             100%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">CSS</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">CSS</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             70%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">JavaScript</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">JavaScript</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             60%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <span class="text-gray-300">PHP</span>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-8/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <span className="text-gray-300">PHP</span>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-8/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             80%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <span class="text-gray-300">Python</span>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-4/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <span className="text-gray-300">Python</span>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-4/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             40%
                                         </div>
                                     </motion.div>
@@ -203,38 +203,38 @@ export default function Skills() {
                             <h1 className="mb-8 text-3xl text-white">Autre </h1>
                             <div className="  grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 gap-4">
 
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">GitHub</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">GitHub</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             70%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">Figma</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">Figma</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             60%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">Postman</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">Postman</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             70%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://img.icons8.com/?size=100&id=TMZAZMLFozcL&format=png&color=000000" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">Bash</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://img.icons8.com/?size=100&id=TMZAZMLFozcL&format=png&color=000000" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">Bash</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-7/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             70%
                                         </div>
                                     </motion.div>
@@ -253,29 +253,29 @@ export default function Skills() {
                             <div className="  grid grid-cols-2 sm:grid-cols-4 md:grid-cols-2 gap-4">
 
 
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="https://e7.pngegg.com/pngimages/890/928/png-clipart-sqlite-logo-sqlite-logo-icons-logos-emojis-tech-companies.png" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">SQLite</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="https://e7.pngegg.com/pngimages/890/928/png-clipart-sqlite-logo-sqlite-logo-icons-logos-emojis-tech-companies.png" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">SQLite</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             60%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="/MongoDB.png" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">MongoDB</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-5/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="/MongoDB.png" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">MongoDB</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-5/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             50%
                                         </div>
                                     </motion.div>
                                 </div>
-                                <div class="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
-                                    <motion.img variants={itemVariants} src="/image.png" alt="HTML" class="w-12 h-12 mb-2" />
-                                    <motion.p variants={itemVariants} class="text-gray-300">SQL</motion.p>
-                                    <motion.div variants={itemVariants} class=" mt-4 w-full h-4 bg-gray-400 rounded-full">
-                                        <div class="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
+                                <div className="flex flex-col items-center p-4  rounded-xl shadow-md shadow-white transition transform hover:scale-105 hover:bg-gray-600">
+                                    <motion.img variants={itemVariants} src="/image.png" alt="HTML" className="w-12 h-12 mb-2" />
+                                    <motion.p variants={itemVariants} className="text-gray-300">SQL</motion.p>
+                                    <motion.div variants={itemVariants} className=" mt-4 w-full h-4 bg-gray-400 rounded-full">
+                                        <div className="w-6/10 h-full text-center text-xs text-white bg-[#FE4F6C] rounded-full">
                                             60%
                                         </div>
                                     </motion.div>

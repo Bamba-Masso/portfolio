@@ -72,11 +72,11 @@ export default function Index() {
 
   return (
     <>
-      <body className="bg-[#3A3973]">
+      <main className="bg-[#3A3973]">
         <header className="w-full bg-[#3A3973] px-16 px-4 flex fixed justify-around items-center py-4 shadow-md top-0 z-50">
-          <span className="text-2xl font-bold text-[#FE4F6C]"><img src="" alt="" className='' />BAMBA</span>
+          <span className="text-2xl font-bold text-[#FE4F6C]">BAMBA</span>
           <input type="checkbox" className="peer hidden" id="navbar-open" />
-          <label className="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
+          <label className="absolute top-5 right-7 cursor-pointer md:hidden" htmlFor="navbar-open">
             <span className="sr-only">Toggle Navigation</span>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -178,7 +178,7 @@ export default function Index() {
           </div>
         </div>
         
-      </body>
+      </main>
 
     </>
   )
