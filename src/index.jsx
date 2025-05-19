@@ -87,7 +87,7 @@ export default function Index() {
             <ul className="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
               <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#props">A propos</a></li>
               <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#formation">Formation</a></li>
-              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#conpetences">Competences</a></li>
+              <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#competences">Competences</a></li>
               <li className="text-white md:mr-12 hover:hover:text-[#FE4F6C]"><a href="#services">Services</a></li>
               <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#projets">Projets</a></li>
               <li className="text-white md:mr-12 hover:text-[#FE4F6C]"><a href="#contact">Contact</a></li>

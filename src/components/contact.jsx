@@ -1,10 +1,16 @@
 import { motion } from "framer-motion"
 import React, { useRef } from "react";
+import { useState } from "react";
+import "react-toastify/dist/ReactToastify.css";
 import emailjs from '@emailjs/browser';
 
+// 
 
 export default function Contact() {
+    // toast.configure();
     const form = useRef();
+    const [notif, setNotif]=useState(false);
+    // const [error, setError]=useState('');
     const handelSubmit = (e) => {
         e.preventDefault();
 
@@ -14,14 +20,21 @@ export default function Contact() {
             })
             .then(
                 (result) => {
+                    setNotif(true)
+                    toast.success("successful");
                     console.log(result.text);
                     console.log("message sent");
                 },
                 (error) => {
+                    // sentMessage=false
+                    //  error="Une erreur c'est produit lors de l'envoie de l'email"
                     console.log('FAILED...', error.text);
                 },
             );
+
+    
     };
+    // form.reset();
     return (
         <>
             <section id="contact" className=" 
@@ -87,6 +100,7 @@ export default function Contact() {
                                 className="w-full py-4 font-semibold text-white transition-colors rounded-md border border-[#FE4F6C] hover:bg-[#FE4F6C] hover:border-white focus:outline-none  ">
                                 Envoyer
                             </button>
+                            {notif }
                         </form>
                     </motion.div>
                 </motion.div>
