@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import React, { useRef } from "react";
 import { useState } from "react";
-import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from 'react-toastify';
 import emailjs from '@emailjs/browser';
 
 // 
@@ -9,32 +9,46 @@ import emailjs from '@emailjs/browser';
 export default function Contact() {
     // toast.configure();
     const form = useRef();
-    const [notif, setNotif]=useState(false);
+
+
+
+    const [notif, setNotif] = useState(false);
     // const [error, setError]=useState('');
     const handelSubmit = (e) => {
+
         e.preventDefault();
+        const formData = new FormData(form.current);
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const message = formData.get('message');
+        if (!name || !email || !message) {
+            toast.error('Veuillez remplir tous les champs');
+            return;
+        }
 
         emailjs
-            .sendForm('react_contact_id', 'react_contact_form', form.current, {
+            .sendForm('react_contact_id', 'react_contacFt_form', form.current, {
                 publicKey: 'fBzrcXhQl5RPaZSFC',
             })
             .then(
                 (result) => {
                     setNotif(true)
-                    toast.success("successful");
+                    toast.success('Le mail à bien été envoyé')
                     console.log(result.text);
                     console.log("message sent");
+                    //  
                 },
                 (error) => {
                     // sentMessage=false
                     //  error="Une erreur c'est produit lors de l'envoie de l'email"
                     console.log('FAILED...', error.text);
                 },
+             form.current.reset(),  
             );
 
-    
+     
     };
-    // form.reset();
+ 
     return (
         <>
             <section id="contact" className=" 
@@ -78,7 +92,7 @@ export default function Contact() {
                         <form ref={form} onSubmit={handelSubmit}>
                             <input type="checkbox" id="" className="hidden" />
                             <div className="mb-5">
-                              <label htmlFor="email_address" className="text-white">Nom complet</label>
+                                <label htmlFor="email_address" className="text-white">Nom complet</label>
                                 <input type="text"
                                     className="w-full px-4 py-3 border-2 text-white dark:text-white rounded-md outline-none border-[#FE4F6C]  "
                                     name="name" />
@@ -90,7 +104,7 @@ export default function Contact() {
                                     name="email" />
                             </div>
                             <div className="mb-3">
-                            <label htmlFor="email_address" className="text-white">Message</label>
+                                <label htmlFor="email_address" className="text-white">Message</label>
                                 <textarea
                                     className="w-full px-4 py-3 border-2 text-white dark:text-white rounded-md outline-none border-[#FE4F6C] h-36  "
                                     name="message">
@@ -100,8 +114,14 @@ export default function Contact() {
                                 className="w-full py-4 font-semibold text-white transition-colors rounded-md border border-[#FE4F6C] hover:bg-[#FE4F6C] hover:border-white focus:outline-none  ">
                                 Envoyer
                             </button>
-                            {notif }
+
                         </form>
+
+                        <ToastContainer
+                            position="top-right"
+                            reverseOrder={true}
+                        />
+
                     </motion.div>
                 </motion.div>
             </section>

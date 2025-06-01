@@ -44,7 +44,7 @@ export default function Header() {
           </motion.h2>
 
           <motion.p variants={itemVariants} className="text-white text-lg mb-6">
-            J'ai 21 ans et je suis développeuse fullstack junior. Cela fait maintenant deux
+            Je suis développeuse fullstack junior. Cela fait maintenant deux
             ans que je me suis lancée dans le monde du développement. Depuis, je ne cesse
             d'apprendre et de me perfectionner. Curieuse et motivée, j'aime relever des
             défis techniques et travailler sur des projets concrets. Mon objectif est
